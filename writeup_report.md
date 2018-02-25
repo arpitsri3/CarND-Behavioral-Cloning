@@ -116,7 +116,7 @@ I have done data Augmentation on the above as follows, to drastically change the
 4. After this , for each image in this dataset of 99 images, i flip the image (as done by David in the classroom) and add a corresponding steering angle multiplied by -1. 
 5. Thus , a batch of 33 finally contains 99*2 datapoints after the above process. There's an increase to 33x6= 198 Datapoints.
 
-After the augmentation process, I had 38088 number of data points. I then preprocessed this data by by doing Lambda normalization and Cropping, which have again been explicitly discussed in the classroom.
+After the augmentation process, I had 38088 number of data points. I then preprocessed this data by by doing Lambda normalization and Cropping, which have again been explicitly discussed in the classroom. I'd like to say that this data augmentation , more than anything else, helped the most in training the network effectively.
 
 The data has been shuffled and 21% of data has been split to validation data set. 
 
